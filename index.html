@@ -6,6 +6,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/vfs_fonts.js"></script>
   <link rel="stylesheet" href="styles/style.css">
   <script src="services/index.js"></script>
+  <script src="base64/imagesBase.js"></script>
 </head>
 <body>
   <h1>Ejemplo de uso de pdfmake</h1>
@@ -15,9 +16,10 @@
   <div id="pdfContainer"></div>
   <script src="formats/format.js"></script>
   <script>
+    const imagen = sep
     const service = new Service()
     const fua = new FUA();
-    fua.initData(service.getData())
+    fua.initData(service.getData(), imagen)
     window.onload = function() {
       fua.showFUA();
     };

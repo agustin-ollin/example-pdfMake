@@ -7,7 +7,7 @@ class Service {
         CURP: 'CXCA021124MOCLRRAS',
         levelAcademic: 'LICENCIATURAS',
         careers: 'LICENCIATURA EN GASTRONOMIA',
-        school: 'ESCUELA DE GASTROMOIA',
+        school: 'ESCUELA DE GASTRONOMIA',
         paydayLimit: '12/08/2023',
         schoolCycle: '2023-2024',
         singleAdmissionSheet: '11047',
