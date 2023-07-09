@@ -168,7 +168,7 @@ class FUA {
             { text: 'Banco', style: 'tituloF_pago', alignment: 'center' },
             { text: 'Referencia bancaria', style: 'tituloF_pago', alignment: 'center' },
           ],
-          ...data.banks.map((bank, index) => [
+          ...data.banks.filter(bank => bank.agreement ).map((bank, index) => [
             {
               stack: [
                 {
@@ -181,32 +181,6 @@ class FUA {
             },
             { text: `${bank.reference}`, style: 'contenido' },
           ]),
-          /* [
-            {
-              stack: [
-                {
-                  image: sep,
-                  fit: [100, 100]
-                },
-                 { text: `Convenio: ${data.banks[0].agreement}`, 
-                 style: 'normal', alignment: 'center' },
-              ]
-            },
-            { text: `${data.banks[0].reference}`, style: 'contenido' },
-          ],
-          [
-            {
-              stack: [
-                {
-                  image: sep,
-                  fit: [100, 100]
-                },
-                 { text: `Convenio: ${data.banks[1].agreement}`, 
-                 style: 'normal', alignment: 'center' },
-              ]
-            },
-            { text: `${data.banks[1].reference}`, style: 'contenido' },
-          ], */
         ],
           },
           
