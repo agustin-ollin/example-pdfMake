@@ -149,7 +149,7 @@ class FUA {
                   border: [false, false, false, false],
                 },
                 {
-                  text: '350.00',
+                  text: `${data.totalPay}`,
                   style: 'normal',
                   alignment: 'right',
                   border: [false, false, true, false],
@@ -158,7 +158,7 @@ class FUA {
               [
                 { text: '', border: [true, false, false, false] },
                 {
-                  text: `TOTAL A PAGAR: ${data.totalPay}`,
+                  text: `TOTAL A PAGAR:`,
                   style: 'tituloF_pago',
                   alignment: 'right',
                   border: [false, false, false, false],
