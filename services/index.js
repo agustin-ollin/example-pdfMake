@@ -29,6 +29,7 @@ class Service {
         singleAdmissionSheet: '11047',
         totalPay: 350,
         banks: banksOrigin,
+        qr: 'ZBF48E4EBR519Q38X3NC4GZSTME40D9M2L5L6G7QEDWOEYCDJ4SDVN3TYT9V03SS200002282142099SE0EDAMG7AYCGJ0IEC5CR6IW'
       }
   }
 
